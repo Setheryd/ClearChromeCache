@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Cache Clearer</title>
+  <style>
+    body {
+      width: 250px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Auto Cache Clearer</h3>
+  <label for="interval">Clear cache every (minutes):</label><br>
+  <input type="number" id="interval" min="1" value="60"><br>
+  <button id="start">Start</button>
+  <button id="stop">Stop</button>
+  <p id="status">Status: Not running</p>
+  <script src="popup.js"></script>
+</body>
+</html>
